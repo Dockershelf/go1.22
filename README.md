@@ -1,5 +1,34 @@
 # go1.22
 
+> **⚠️ ARCHIVED: This repository has been retired**
+>
+> **Go 1.22** reached End of Life on **11 Feb 2025** and is no longer receiving updates from upstream.
+>
+> ### What This Means
+> - ❌ **No new builds** will be published to the Dockershelf APT repository
+> - ❌ **No security updates** will be provided
+> - ❌ **This repository is now read-only** (archived)
+> - ✅ **Existing packages remain available** for download via `apt install`
+> - ✅ **Docker images remain available** on GHCR
+>
+> ### Last Build Information
+> - **Last successful build:** 2026-09-09
+>
+> ### Migration Path
+> Please upgrade to a supported version:
+> - **Go 1.23** (next remaining line)
+> - **Go 1.27** (latest stable, recommended)
+>
+> See the [Dockershelf Go Pipeline](https://github.com/Dockershelf/go-pipeline) for currently supported versions.
+>
+> ### Support Policy
+> Dockershelf follows upstream EOL schedules:
+> - **Go:** [Release Policy](https://go.dev/doc/devel/release)
+>
+> ---
+>
+> _Archived on 2026-09-19 by the Dockershelf maintainers._
+
 Debian packaging for Go 1.22: compiles the Go toolchain from the official [golang/go](https://github.com/golang/go) source tree into `golang-1.22-go` packages for enterprise `.deb`-only installs.
 
 ## Supported Debian suites

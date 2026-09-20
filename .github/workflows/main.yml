@@ -1,8 +1,8 @@
 name: packaging
 
 on:
-  schedule:
-    - cron: '0 4 * * 3'
+  # schedule:
+  #   - cron: '0 4 * * 3'
   workflow_dispatch:
     inputs:
       publish:
